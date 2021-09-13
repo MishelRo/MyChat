@@ -143,13 +143,13 @@
 			path = ChatViewController;
 			sourceTree = "<group>";
 		};
-		CE85484026EE56F200BF1F19 /* AuthViewController */ = {
+		CE85484026EE56F200BF1F19 /* AuthModulle */ = {
 			isa = PBXGroup;
 			children = (
 				CE85484D26EE697800BF1F19 /* Authentification */,
 				CE85484C26EE696800BF1F19 /* Register */,
 			);
-			path = AuthViewController;
+			path = AuthModulle;
 			sourceTree = "<group>";
 		};
 		CE85484726EE643A00BF1F19 /* Model */ = {
@@ -256,7 +256,7 @@
 		CEF2054B26EE3B28000106D3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE85484026EE56F200BF1F19 /* AuthViewController */,
+				CE85484026EE56F200BF1F19 /* AuthModulle */,
 				CE85483F26EE56E100BF1F19 /* ChatViewController */,
 			);
 			path = Controllers;
