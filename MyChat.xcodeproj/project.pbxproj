@@ -27,7 +27,6 @@
 		CEF2053326EE3AF2000106D3 /* MyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2053226EE3AF2000106D3 /* MyChatTests.swift */; };
 		CEF2053E26EE3AF2000106D3 /* MyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2053D26EE3AF2000106D3 /* MyChatUITests.swift */; };
 		CEF2054E26EE3B39000106D3 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2054C26EE3B39000106D3 /* ChatViewController.swift */; };
-		CEF2054F26EE3B39000106D3 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF2054D26EE3B39000106D3 /* ChatViewController.xib */; };
 		CEF2055126EE3B4A000106D3 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2055026EE3B4A000106D3 /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +80,6 @@
 		CEF2053D26EE3AF2000106D3 /* MyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatUITests.swift; sourceTree = "<group>"; };
 		CEF2053F26EE3AF3000106D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF2054C26EE3B39000106D3 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		CEF2054D26EE3B39000106D3 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		CEF2055026EE3B4A000106D3 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		CEF2055226EE3CA0000106D3 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,7 +137,6 @@
 		CE85483F26EE56E100BF1F19 /* ChatViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CEF2054D26EE3B39000106D3 /* ChatViewController.xib */,
 				CEF2054C26EE3B39000106D3 /* ChatViewController.swift */,
 				CEF2055026EE3B4A000106D3 /* ChatViewModel.swift */,
 			);
@@ -378,7 +375,6 @@
 				CEF2052826EE3AF2000106D3 /* LaunchScreen.storyboard in Resources */,
 				CE85483B26EE4E4900BF1F19 /* GoogleService-Info.plist in Resources */,
 				CEF2052526EE3AF2000106D3 /* Assets.xcassets in Resources */,
-				CEF2054F26EE3B39000106D3 /* ChatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

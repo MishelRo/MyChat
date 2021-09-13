@@ -7,8 +7,12 @@
 
 import Firebase
 import KeychainSwift
+
 class ChatViewModel {
     
+    var view: ChatViewController!{
+        return ChatViewController()
+    }
     
     func signOut() {
        try! Auth.auth().signOut()

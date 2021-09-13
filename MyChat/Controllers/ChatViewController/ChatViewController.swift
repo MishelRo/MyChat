@@ -92,6 +92,12 @@ class ChatViewController: JSQMessagesViewController {
                                                             style: .plain,
                                                             target: self,
                                                             action: #selector(signOutButton))
+        snap()
+    }
+    
+    
+
+    func snap() {
         let defaults = UserDefaults.standard
         if  let id = defaults.string(forKey: "jsq_id"),
             let name = defaults.string(forKey: "jsq_name") {
@@ -126,5 +132,6 @@ class ChatViewController: JSQMessagesViewController {
             }
         })
     }
-
+    
+    
 }
