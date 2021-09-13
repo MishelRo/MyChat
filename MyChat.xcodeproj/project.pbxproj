@@ -187,6 +187,17 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		CE85485826EF484100BF1F19 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CEF2052626EE3AF2000106D3 /* LaunchScreen.storyboard */,
+				CEF2052426EE3AF2000106D3 /* Assets.xcassets */,
+				CEF2051826EE3AF0000106D3 /* AppDelegate.swift */,
+				CEF2051A26EE3AF0000106D3 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		CEF2050C26EE3AF0000106D3 = {
 			isa = PBXGroup;
 			children = (
@@ -216,10 +227,7 @@
 				CE85484726EE643A00BF1F19 /* Model */,
 				CE85483C26EE4ECD00BF1F19 /* Sources */,
 				CEF2054B26EE3B28000106D3 /* Controllers */,
-				CEF2051826EE3AF0000106D3 /* AppDelegate.swift */,
-				CEF2051A26EE3AF0000106D3 /* SceneDelegate.swift */,
-				CEF2052426EE3AF2000106D3 /* Assets.xcassets */,
-				CEF2052626EE3AF2000106D3 /* LaunchScreen.storyboard */,
+				CE85485826EF484100BF1F19 /* AppDelegate */,
 				CEF2052926EE3AF2000106D3 /* Info.plist */,
 				CE85483A26EE4E4900BF1F19 /* GoogleService-Info.plist */,
 				CEF2052126EE3AF0000106D3 /* MyChat.xcdatamodeld */,
